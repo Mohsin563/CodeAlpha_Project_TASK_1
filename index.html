@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AGE CALCULATOR</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <head>
+        <div><h1 class="left">AGE CALCULATOR</h1></div>
+    </head>
+    <main>
+        <div class="banner">
+            
+            <canvas id="dotsCanvas"></canvas>
+            <div class="container">
+                <div class="inputs-wrapper">
+                    <input type="date" id="date-input">
+                    <button onclick="ageCalculate()">Calculate</button>
+                </div>
+                <div class="outputs-wrapper">
+                    <div>
+                        <span id="years">
+                            -
+                        </span>
+                        <p>
+                            Years
+                        </p>
+                    </div>
+                    <div>
+                        <span id="months">
+                            -
+                        </span>
+                        <p>
+                           Months
+                        </p>
+                    </div>
+                    <div>
+                        <span id="days">
+                            -
+                        </span>
+                        <p>
+                            Days
+                        </p>
+                    </div>
+                </div>
+            </div>
+            
+           
+        </div>
+    </main>    
+
+
+    <script src="app.js"></script>
+</body>
+</html>
